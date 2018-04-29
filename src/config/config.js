@@ -30,18 +30,10 @@ export const config = {
       },
       {
         'teamName':'Performance dev team',
-        'personName':'Mukesh Agarwal',
+        'personName':'Ankush Tiwari',
         'designation':'Performance Engineer',
         'level':2,
-        'immediateEmployee':[
-          {
-            'teamName':'Performance dev team',
-            'personName':'Mukesh Agarwal',
-            'designation':'Performance Engineer',
-            'level':3,
-            'immediateEmployee':[]
-          }
-        ]
+        'immediateEmployee':[]
       },
       {
         'teamName':'Performance dev team',
@@ -58,8 +50,8 @@ export const config = {
         'immediateEmployee':[
           {
             'teamName':'Performance dev team',
-            'personName':'Mukesh Agarwal',
-            'designation':'Performance Engineer',
+            'personName':'Abhishek Agarwal',
+            'designation':'Rendering Engineer',
             'level':3,
             'immediateEmployee':[]
           },
@@ -74,43 +66,43 @@ export const config = {
       },
       {
         'teamName':'Performance dev team',
-        'personName':'Ankush Burman',
+        'personName':'Piyush Jain',
         'designation':'Performance Engineer',
         'level':2,
         'immediateEmployee':[
           {
             'teamName':'Performance dev team',
-            'personName':'Ankush Burman',
+            'personName':'Surjit Burman',
             'designation':'Performance Engineer',
-            'level':2,
+            'level':3,
             'immediateEmployee':[]
           },
           {
             'teamName':'Performance dev team',
-            'personName':'Ankush Burman',
+            'personName':'Rishi Sachdev',
             'designation':'Performance Engineer',
-            'level':2,
+            'level':3,
             'immediateEmployee':[]
           },
           {
             'teamName':'Performance dev team',
-            'personName':'Ankush Burman',
-            'designation':'Performance Engineer',
-            'level':2,
+            'personName':'Gaurav Swaroop',
+            'designation':'UX Engineer',
+            'level':3,
             'immediateEmployee':[]
           },
           {
             'teamName':'Performance dev team',
-            'personName':'Ankush Burman',
-            'designation':'Performance Engineer',
-            'level':2,
+            'personName':'Tushar Chopra',
+            'designation':'Devtools Engineer',
+            'level':3,
             'immediateEmployee':[]
           },
           {
             'teamName':'Performance dev team',
             'personName':'Ankush Agarwal',
             'designation':'Performance Engineer',
-            'level':2,
+            'level':3,
             'immediateEmployee':[]
           }
         ]
