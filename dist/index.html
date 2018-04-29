@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Team Heirarchy Renderer</title>
+    <style>
+    *
+    {
+      font-family: sans-serif;
+      margin:0px;
+      padding:0px;
+    }
+    .expand
+    {
+      border: none;
+    width: 30px;
+    height: 40px;
+    background: #0000003d;
+    font-size: 22px;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    }
+    .expand:focus{
+      outline:none;
+    }
+
+    .arrow:focus{
+      outline:none;
+    }
+    .down::after{
+      height: 20px;
+      width: 1px;
+      content: '';
+      position: absolute;
+      background: black;
+    }
+    .up::before
+    {
+      height: 29px;
+      width: 1px;
+      content: '';
+      position: absolute;
+      background: black;
+      top:-29px;
+    }
+    .line
+    {
+      border-bottom:1px solid;
+      position:absolute;
+      min-width:1px;
+    }
+    .headerTitle
+    {
+      background: black;
+      color: white;
+      padding: 16px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .nodeContainer
+    {
+      display: inline-block;
+    }
+
+    .width100
+    {
+      width:100%;
+      height:100%;
+      position: absolute;
+    }
+    .nodeChildContainer
+    {
+      display: inline-block;
+
+      white-space: nowrap;
+    }
+    .nodeDetailContainer
+    {
+      width: 250px;
+      /* border: 1px solid #0000007d; */
+      /* border-radius: 2px; */
+      /* padding: 10px; */
+      box-sizing: border-box;
+      box-shadow: 0px 0px 4px 0px #0000002b;
+      text-align: center;
+      margin:20px 10px;
+      background:white;
+      display: inline-block;
+    }
+    .nodeHeader
+    {
+      height: 40px;
+      line-height: 40px;
+      font-size: 15px;
+      font-weight: 600;
+      border-bottom:1px solid #00000021;
+      color:#000000a8;
+    }
+
+    .nodeHeaderWithChild
+    {
+      background: #00BCD4;
+      color: white;
+      border-bottom:1px solid #00BCD4;
+    }
+    .arrow
+    {
+      width: 45px;
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    vertical-align: top;
+    height: 45px;
+    line-height: 45px;
+    /* margin-right: -4px; */
+    font-size: 18px;
+    color: white;
+    top: 55px;
+    border: none;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    background: #009688;
+    border-radius: 100%;
+    cursor: pointer;
+    }
+    .disable
+    {
+      opacity: 0.3;
+      cursor: default;
+      pointer-events: none;
+    }
+    .nodePersonDetail
+    {
+
+      border-bottom: 1px solid #00000021;
+    }
+
+    .personName
+    {
+      font-size: 14px;
+      font-weight: 600;
+      color: #000000c4;
+      padding: 10px 0px 0px;
+    }
+
+    .designation
+    {
+      font-size: 11px;
+      color: #00000052;
+      padding: 2px 0px 10px 0px;
+    }
+    .teamDetail
+    {
+      height:40px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/bundle.js"></script>
+  </body>
+</html>
