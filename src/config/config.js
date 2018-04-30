@@ -1,14 +1,14 @@
 export const config = {
   'title':'Team heirarchy renderer',
   'rootNode':{
-    'teamName':'Rent mojo',
+    'teamName':'Husky',
     'personName':'Anirudh Modi',
     'designation':'Frontend Engineer',
     'level':1,
     'immediateEmployee':[
       {
         'teamName':'UI dev team',
-        'personName':'Paramjeet Singh',
+        'personName':'Varun Agarwal',
         'designation':'UI designer',
         'level':2,
         'immediateEmployee':[
